@@ -16,5 +16,6 @@ z = "I like turtles!"
 
 # Finally, print the same thing using an f-string
 
-print("x: %10 ")
+print("\nx is {x}, y is {y}, z is {z} \n".format(x=x, y=y, z=z))
+print(f"\nx is {x}, y is {y}, z is {z} \n")
 
